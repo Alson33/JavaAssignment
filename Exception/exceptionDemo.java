@@ -1,19 +1,19 @@
 class exceptionDemo
 {
 
-	boolean div(){
-		int a = 10;
+	boolean division(){
+		int a = 7;
 
 			try{
 				System.out.println(a/0);
 			}catch(ArithmeticException e){
 				System.out.println(e);
 				return true;
-			}catch(Exception e1){
-				System.out.println(e1);
+			}catch(Exception e){
+				System.out.println(e);
 				return true;
 			}finally{
-				System.out.println("Finally block is printed in to the console even after returning.");
+				System.out.println("It is a finally block statment.");
 			}
 
 			return false;
@@ -22,6 +22,6 @@ class exceptionDemo
 	public static void main(String[] args) {
 		exceptionDemo obj = new exceptionDemo();
 
-			System.out.println(obj.div());
+			System.out.println(obj.division());
 	}
 }
