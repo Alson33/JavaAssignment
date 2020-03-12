@@ -10,7 +10,7 @@
 - The Java ActionListener is notified whenever you click on the button or menu item.
 - It has 1 method:
 	- `public abstract void actionPerformed(ActionEvent e);`
-- [Example]()
+- [Example](https://github.com/Alson33/JavaAssignment/blob/master/Event%20handling/Qn-2(Event%20listener)/ActionListenerDemo.java)
 
 >MouseListener
 
@@ -21,7 +21,7 @@
 	- `public abstract void mouseExited(MouseEvent e);`  
 	- `public abstract void mousePressed(MouseEvent e);`  
 	- `public abstract void mouseReleased(MouseEvent e);`   
-- [Example]()
+- [Example](https://github.com/Alson33/JavaAssignment/blob/master/Event%20handling/Qn-2(Event%20listener)/MouseListenerDemo.java)
 
 >MouseMotionListener
 
@@ -29,7 +29,7 @@
 - It has 2 methods:
 	- `public abstract void mouseDragged(MouseEvent e);`
 	- `public abstract void mouseMoved(MouseEvent e);`
-- [Example]()
+- [Example](https://github.com/Alson33/JavaAssignment/blob/master/Event%20handling/Qn-2(Event%20listener)/MouseMotionListenerDemo.java)
 
 >KeyListener
 
@@ -38,14 +38,14 @@
 	- `public abstract void keyPressed(KeyEvent e);`  
 	- `public abstract void keyReleased(KeyEvent e);`  
 	- `public abstract void keyTyped(KeyEvent e);`  
-- [Example]()
+- [Example](https://github.com/Alson33/JavaAssignment/blob/master/Event%20handling/Qn-2(Event%20listener)/KeyListenerDemo.java)
 
 >ItemListener
 
 - The Java ItemListener is notified whenever you click on the checkbox.
 - It has 1 method:
 	- `public abstract void itemStateChanged(ItemEvent e);`
-- [Example]()
+- [Example](https://github.com/Alson33/JavaAssignment/blob/master/Event%20handling/Qn-2(Event%20listener)/ItemListenerDemo.java)
 
 >WindowListener
 
@@ -58,4 +58,4 @@
 	- `public abstract void windowDeiconified(WindowEvent e);`  
 	- `public abstract void windowIconified(WindowEvent e);`  
 	- `public abstract void windowOpened(WindowEvent e);`  
-- [Example]()
+- [Example](https://github.com/Alson33/JavaAssignment/blob/master/Event%20handling/Qn-2(Event%20listener)/WindowListenerDemo.java)
