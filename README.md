@@ -10,3 +10,5 @@ assignment of java
 [GUI](https://github.com/Alson33/JavaAssignment/tree/master/GUI)
 
 [Event Handling](https://github.com/Alson33/JavaAssignment/tree/master/Event%20handling)
+
+[Graphics](https://github.com/Alson33/JavaAssignment/tree/master/Graphics)
