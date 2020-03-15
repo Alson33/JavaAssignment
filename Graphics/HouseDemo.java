@@ -1,5 +1,4 @@
 import java.awt.*;
-import javax.swing.JFrame;
 
 class HouseDemo extends Canvas
 {
@@ -8,10 +7,6 @@ class HouseDemo extends Canvas
 		// background color for sky
 		g.setColor(Color.BLUE);
 		g.fillRect(0,0, 800, 400);
-
-		// background color for land
-		g.setColor(Color.GREEN);
-		g.fillRect(0,400, 800, 400);
 
 		// ovals for cloud
 		g.setColor(Color.WHITE);
@@ -54,7 +49,7 @@ class HouseDemo extends Canvas
 
 			f.setSize(800, 800);
 			f.setVisible(true);
-			f.add(h);	
-			// f.setBackground(Color.GREEN);
+			f.setBackground(Color.GREEN);
+			f.add(h);
 	}
 }
