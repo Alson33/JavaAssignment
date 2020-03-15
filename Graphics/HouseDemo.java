@@ -7,11 +7,11 @@ class HouseDemo extends Canvas
 	{
 		// background color for sky
 		g.setColor(Color.BLUE);
-		g.fillRect(0,0, 800, 400); //used the rect to fill the background
+		g.fillRect(0,0, 800, 400);
 
 		// background color for land
 		g.setColor(Color.GREEN);
-		g.fillRect(0,400, 800, 400);//used the rect to fill the background
+		g.fillRect(0,400, 800, 400);
 
 		// ovals for cloud
 		g.setColor(Color.WHITE);
